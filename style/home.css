@@ -149,7 +149,12 @@ body {
   color: #fff3cd;
   background-color: #4d3e3e;
   width: 50%;
-  margin: 325px auto;
+  margin: 280px auto 30px auto;
+}
+
+.fb-share-button  {
+  display: flex;
+  margin: 0px auto 200px auto;
 }
 
 @media screen and (max-width: 600px) {

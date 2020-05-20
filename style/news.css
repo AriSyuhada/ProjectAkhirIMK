@@ -177,19 +177,25 @@ body {
 }
 
 .bottom-container h2 {
-    font-weight: 700;
-    display: inline-block;
+    font-weight: 700 !important;
+    display: inline-block !important;
     font-family: 'Bellota Text', cursive;
     color: #fff3cd;
     background-color: #4d3e3e;
-    width: 50%;
-    margin: 325px auto;
+    width: 50% !important;
+    margin: 280px auto 30px auto !important;
+}
+
+#share-fb {
+    display: block !important;
+    width: 100%;
+    margin: 0 auto 200px auto !important;
 }
 
 @media screen and (max-width: 600px) {
     .bottom-container h2 {
-        width: 80%;
-        font-size: 25px;
+        width: 80% !important;
+        font-size: 25px !important;
     }
 }
 
