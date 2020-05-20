@@ -141,7 +141,7 @@ input[type=submit]:hover {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
 
     .top-container {
         height: 1000px;

@@ -103,7 +103,7 @@ body {
     text-align: left;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 
     .top-container {
         height: 1500px;
@@ -114,8 +114,17 @@ body {
         margin: 125px auto 30px auto;
     }
 
+    .row {
+        display: block !important;
+        width: 100%;
+        max-width: 325px;
+        margin: 0 auto !important;
+    }
+
     .card {
-        margin: 30px auto;
+        width: 300px;
+        display: inline-block !important;
+        margin: 30px auto !important;
     }
 
     #subs-get {
